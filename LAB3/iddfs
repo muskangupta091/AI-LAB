@@ -53,6 +53,6 @@ if __name__ == "__main__":
     maxDepth = int(input())
 
     if g.iterativeSearch(src,target,maxDepth):
-        print("Can reach")
+        print("Can reach!")
     else:
         print("Cannot reach")
