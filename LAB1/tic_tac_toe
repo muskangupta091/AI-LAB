@@ -30,7 +30,6 @@ def isWinner(bo, le):
                        bo[3] == le and bo[6] == le and bo[9] == le) or (
                        bo[1] == le and bo[5] == le and bo[9] == le) or (bo[3] == le and bo[5] == le and bo[7] == le)
 
-
 def playerMove():
     run = True
     while run:
